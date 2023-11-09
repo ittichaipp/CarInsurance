@@ -1,0 +1,143 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url(../fonts/DBHeavent/DBHeaventBdCondv3_2.ttf);
+@import url(../fonts/DBHeavent/DBHeaventCondv3_2.ttf);
+@import url(../fonts/DBHeavent/DBHeaventMedCondv3_2.ttf);
+@import url(../fonts/DBHeavent/DBHeaventBdCondv3_2.eot);
+@import url(../fonts/DBHeavent/DBHeaventCondv3_2.eot);
+@import url(../fonts/DBHeavent/DBHeaventMedCondv3_2.eot);
+@import url(../fonts/DBHeavent/DBHeaventBdCondv3_2.svg);
+@import url(../fonts/DBHeavent/DBHeaventCondv3_2.svg);
+@import url(../fonts/DBHeavent/DBHeaventMedCondv3_2.svg);
+@import url(../fonts/DBHeavent/DBHeaventBdCondv3_2.woff);
+@import url(../fonts/DBHeavent/DBHeaventCondv3_2.woff);
+@import url(../fonts/DBHeavent/DBHeaventMedCondv3_2.woff);
+@import url(../fonts/DBHeavent/DBHeaventBdCondv3_2.woff2);
+@import url(../fonts/DBHeavent/DBHeaventCondv3_2.woff2);
+@import url(../fonts/DBHeavent/DBHeaventMedCondv3_2.woff2);
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+@font-face {
+    font-family: 'DBHeavent';
+    src: url(../fonts/DBHeavent/DBHeaventMedCondv3_2.ttf);
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+    font-family: 'DBHeavent' !important
+}
+body {
+    font-size: 23px;
+    font-family: 'DBHeavent' !important
+}
+
+h1 ,h2{
+    font-family: 'DBHeavent';
+}
+
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        font-family: 'DBHeavent'
+    }
+  }
+
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    color: #0a0a0a;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*custom theme */
+.form-control, .input-group-text, .custom-select {
+    font-size: 22px;
+}
+
+.skin-1 .nav-header   {
+    background-color: rgba(21, 65, 148, 0.8);
+    background-image: none;
+}
+
+.skin-1 .navbar-default {
+    background-color: rgba(21, 65, 148, 0.8);
+}
+
+.skin-1 .nav > li.active {
+    background-color: rgba(21, 65, 148, 0.8);
+
+}
+
+.skin-1 .navbar-static-top {
+    background-color: rgba(21, 65, 148, 0.8);
+}
+
+body.mini-navbar .nav-header {
+    background-color: #3083ff;
+}
+.footer {
+    background-color: rgba(21, 65, 148, 0.8);
+}
+.skin-1 .nav > li > a {
+    color: #0f1010;
+}
+.nav.navbar-top-links a  {
+    font-size: 20px;
+}
+.text-muted {
+    font-size: 30px;
+    
+}

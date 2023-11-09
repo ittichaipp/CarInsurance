@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CarInsurance.Model.InsuranceForm>
+<style>
+    #customers {
+        /*font-family: Arial, Helvetica, sans-serif;*/
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: rgba(21, 65, 148, 0.8);
+            color: white;
+        }
+</style>
+<div class="row pt-4">
+    <div class="col-6">
+        <h2 class="text-success">ประวัติการสมัครประกันภัยรถ</h2>
+    </div>
+    @*<div class="col-6 text-right">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fas fa-plus"></i> &nbsp; สมัครประกันภัยรถ
+        </a>
+    </div>*@
+</div>
+<br />
+<table id="customers">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.TypeCar)</th>
+        <th>@Html.DisplayNameFor(model => model.Level)</th>
+        <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+        <th>@Html.DisplayNameFor(model => model.LastName)</th>
+        <th>@Html.DisplayNameFor(model => model.Tel)</th>
+      
+    </tr>
+    @*@foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+            <td>@Html.DisplayFor(modelItem => item.TypeCar)</td>
+            <td>@Html.DisplayFor(modelItem => item.Level)</td>
+            <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+            <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+            <td>@Html.DisplayFor(modelItem => item.Tel)</td>
+            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+            <td>@Html.DisplayFor(modelItem => item.Total)</td>
+            
+        </tr>
+    }*@
+</table>

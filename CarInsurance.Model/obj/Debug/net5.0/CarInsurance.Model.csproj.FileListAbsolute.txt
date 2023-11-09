@@ -1,0 +1,12 @@
+C:\Project\Test\CarInsurance\CarInsurance.Model\bin\Debug\net5.0\CarInsurance.Model.deps.json
+C:\Project\Test\CarInsurance\CarInsurance.Model\bin\Debug\net5.0\CarInsurance.Model.dll
+C:\Project\Test\CarInsurance\CarInsurance.Model\bin\Debug\net5.0\ref\CarInsurance.Model.dll
+C:\Project\Test\CarInsurance\CarInsurance.Model\bin\Debug\net5.0\CarInsurance.Model.pdb
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.AssemblyInfoInputs.cache
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.AssemblyInfo.cs
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.csproj.CoreCompileInputs.cache
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.dll
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\ref\CarInsurance.Model.dll
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.pdb
+C:\Project\Test\CarInsurance\CarInsurance.Model\obj\Debug\net5.0\CarInsurance.Model.csproj.AssemblyReference.cache

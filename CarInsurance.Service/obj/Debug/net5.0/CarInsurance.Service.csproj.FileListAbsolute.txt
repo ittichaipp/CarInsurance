@@ -1,0 +1,17 @@
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Service.deps.json
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Service.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\ref\CarInsurance.Service.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Service.pdb
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Dao.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Model.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Dao.pdb
+C:\Project\Test\CarInsurance\CarInsurance.Service\bin\Debug\net5.0\CarInsurance.Model.pdb
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.csproj.AssemblyReference.cache
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.AssemblyInfoInputs.cache
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.AssemblyInfo.cs
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.csproj.CoreCompileInputs.cache
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.csproj.CopyComplete
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\ref\CarInsurance.Service.dll
+C:\Project\Test\CarInsurance\CarInsurance.Service\obj\Debug\net5.0\CarInsurance.Service.pdb

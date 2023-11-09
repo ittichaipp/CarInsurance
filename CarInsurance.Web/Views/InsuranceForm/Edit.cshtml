@@ -1,0 +1,64 @@
+﻿@model CarInsurance.Model.InsuranceForm
+
+<div class="container p-5">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-success">แก้ไขข้อมูลประกันภัยรถ</h2>
+        </div>
+    </div>
+    
+    <form class="needs-validation" asp-action="Edit">
+        <div class="col-md-3">
+            <label for="typecar" class="form-label" asp-for="TypeCar"></label>
+            <select class="custom-select" asp-for="TypeCar">
+                <option value="">ประเภทของรถ...</option>
+                <option>รถมอเตอร์ไซค์</option>
+                <option>รถเก๋ง</option>
+                <option>รถกระบะ</option>
+            </select>
+            <span asp-validation-for="TypeCar" class="text-danger"></span>
+        </div>
+        <div class="col-md-3">
+            <label for="level" class="form-label" asp-for="Level"></label>
+            <select class="custom-select" asp-for="Level">
+                <option value="">ชั้นประกัน...</option>
+                <option>ชั้นที่ 1</option>
+                <option>ชั้นที่ 2</option>
+                <option>ชั้นที่ 3</option>
+            </select>
+            <span asp-validation-for="Level" class="text-danger"></span>
+
+        </div>
+        <div class="col-sm-6">
+            <label for="firstName" class="form-label" asp-for="FirstName"></label>
+            <input type="text" class="form-control" asp-for="FirstName" placeholder="firstName">
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="col-sm-6">
+            <label for="lastName" class="form-label" asp-for="LastName"></label>
+            <input type="text" class="form-control" asp-for="LastName" placeholder="lastName">
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+
+        <div class="col-6">
+            <label for="Telephone" class="form-label" asp-for="Tel"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text">+66</span>
+                <input type="tel" class="form-control" asp-for="Tel">
+            </div>
+            <span asp-validation-for="Tel" class="text-danger"></span>
+        </div>
+        <div class="col-6">
+            <label for="Email" class="form-label" asp-for="Email"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text">&#64;</span>
+                <input type="email" class="form-control" asp-for="Email">
+            </div>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <br />
+        <button class="w-25 btn btn-warning btn-lg" asp-action="History">ย้อนกลับ</button>
+        <button class="w-25 btn btn-primary btn-lg" type="submit">อัพเดต</button>
+    </form>
+</div>

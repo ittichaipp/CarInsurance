@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarInsurance.Dao\CarInsurance.Dao.csproj" />
+    <ProjectReference Include="..\CarInsurance.Model\CarInsurance.Model.csproj" />
+  </ItemGroup>
+
+</Project>

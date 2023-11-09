@@ -1,0 +1,89 @@
+﻿@model CarInsurance.Model.InsuranceForm
+
+@*<style>
+    html,body{
+        background:#01944f;
+    }
+</style>*@
+<div class="col-md-12 col-lg-12 " >
+    <div class="row pt-4">
+        
+        <div class="col-6">
+            <h2 class="text-success">สมัครประกันภัยรถ</h2>
+        </div>
+    </div>
+    <form class="needs-validation" asp-action="Create">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12 ">
+                    <label for="typecar" class="form-label" asp-for="TypeCar"></label>
+                    <select class="custom-select" asp-for="TypeCar">
+                        <option value="">ประเภทของรถ...</option>
+                        <option>รถมอเตอร์ไซค์</option>
+                        <option>รถเก๋ง</option>
+                        <option>รถกระบะ</option>
+                    </select>
+                    <span asp-validation-for="TypeCar" class="text-danger"></span>
+                </div>
+                <div class="col-md-12">
+                    <label for="level" class="form-label" asp-for="Level"></label>
+                    <select class="custom-select" asp-for="Level">
+                        <option value="">ชั้นประกัน...</option>
+                        <option>ชั้นที่ 1</option>
+                        <option>ชั้นที่ 2</option>
+                        <option>ชั้นที่ 3</option>
+                    </select>
+                    <span asp-validation-for="Level" class="text-danger"></span>
+
+                </div>
+                <div class="col-md-12">
+                    <label for="firstName" class="form-label" asp-for="FirstName"></label>
+                    <input type="text" class="form-control" asp-for="FirstName" placeholder="firstName">
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="lastName" class="form-label" asp-for="LastName"></label>
+                    <input type="text" class="form-control" asp-for="LastName" placeholder="lastName">
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-12">
+                    <label for="Telephone" class="form-label" asp-for="Tel"></label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text">+66</span>
+                        <input type="tel" class="form-control" asp-for="Tel">
+                    </div>
+                    <span asp-validation-for="Tel" class="text-danger"></span>
+                </div>
+                <div class="col-md-12">
+                    <label for="email" class="form-label" asp-for="Email"></label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text">&#64;</span>
+                        <input type="email" class="form-control" asp-for="Email">
+                    </div>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <br />
+
+                <button class="col-md-12 btn btn-primary btn-lg" type="submit">สมัครประกันภัย</button>
+            </div>
+
+            <div class="col-md-6">
+
+                <center>
+                    <img src="~/images/sqiude-game-wall243084202_1317124118741576_4022170081509911002_n.jpg" width="70%" height="70%">
+                </center>
+            </div>
+
+
+
+        </div>
+        <br />
+        <br />
+
+    </form>
+    
+</div>
+

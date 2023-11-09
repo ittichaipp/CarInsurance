@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LUtY65AMs6YlYOweZdXprQYatsN4Ls9pbXbphtVRJVFsIUxvyr6Rh4gBwe3BkSzbZ9/tuw8cW33OmH1Jq+GGQA==",
+  "success": true,
+  "projectFilePath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ittichaip\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

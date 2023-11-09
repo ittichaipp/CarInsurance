@@ -1,0 +1,287 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Project\\Test\\CarInsurance\\CarInsurance.Web\\CarInsurance.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\CarInsurance.Dao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\CarInsurance.Dao.csproj",
+        "projectName": "CarInsurance.Dao",
+        "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\CarInsurance.Dao.csproj",
+        "packagesPath": "C:\\Users\\ittichaip\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ittichaip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj": {
+                "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj",
+        "projectName": "CarInsurance.Model",
+        "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj",
+        "packagesPath": "C:\\Users\\ittichaip\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ittichaip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\CarInsurance.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\CarInsurance.Service.csproj",
+        "projectName": "CarInsurance.Service",
+        "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\CarInsurance.Service.csproj",
+        "packagesPath": "C:\\Users\\ittichaip\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ittichaip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\CarInsurance.Dao.csproj": {
+                "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Dao\\CarInsurance.Dao.csproj"
+              },
+              "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj": {
+                "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Project\\Test\\CarInsurance\\CarInsurance.Web\\CarInsurance.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Web\\CarInsurance.Web.csproj",
+        "projectName": "CarInsurance.Web",
+        "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Web\\CarInsurance.Web.csproj",
+        "packagesPath": "C:\\Users\\ittichaip\\.nuget\\packages\\",
+        "outputPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ittichaip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj": {
+                "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Model\\CarInsurance.Model.csproj"
+              },
+              "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\CarInsurance.Service.csproj": {
+                "projectPath": "C:\\Project\\Test\\CarInsurance\\CarInsurance.Service\\CarInsurance.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
